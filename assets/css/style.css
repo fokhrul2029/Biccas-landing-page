@@ -1,0 +1,755 @@
+/* 
+    // import font from Google-font
+    // font-family: 'Inter', sans-serif; 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+img {
+  max-width: 100%;
+}
+/* Common CSS Classes  */
+
+.app-btn {
+  border-radius: 10px;
+  background: #54bd95;
+  color: #f8f8fa;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: 0.2s ease;
+  border: 1px solid transparent;
+}
+.app-btn:hover {
+  background: #f8f8fa;
+  color: #54bd95;
+  border: 1px solid #54bd95;
+}
+/* ============= Navbar CSS ============== */
+.nav-section .container {
+  padding: 20px 0;
+}
+.logo a {
+  color: #54bd95;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 60% */
+}
+.logo a:visited {
+  color: #54bd95;
+}
+.nav-section button {
+  border: 2px solid #54bd95;
+  transition: 0.2s ease;
+  outline: none;
+}
+
+.nav-section button:hover {
+  background-color: #54bd95;
+  border: 2px solid transparent;
+}
+.nav-section button:hover i {
+  color: white;
+}
+.nav-section button i {
+  color: #54bd95;
+  font-size: 31px;
+}
+.nav-section button:focus {
+  box-shadow: 0 0 0;
+  outline: none;
+}
+.nav-section ul li a {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-section .button a:nth-child(1) {
+  color: #a6a6a6;
+  background-color: #fff;
+}
+.nav-section .button a:nth-child(1):hover {
+  background: #54bd95;
+  color: #f8f8fa;
+  font-family: Inter;
+  border: 1px solid transparent;
+}
+/* ============ Hero CSS =============== */
+.hero-section {
+  padding: 100px 0 0 0;
+}
+.hero-section h1 {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.hero-section p {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  padding: 50px 0;
+}
+.hero-section .button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.hero-section .button button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 40px;
+  background: #54bd95;
+  padding: 20px 30px;
+  border: 1px solid transparent;
+  outline: none;
+  transition: 0.2s ease;
+}
+.hero-section .button button:nth-child(1):hover {
+  border: 1px solid #54bd95;
+  color: #54bd95;
+  background-color: #fff;
+}
+.hero-section .button button:nth-child(2) {
+  border: 1px solid transparent;
+  color: #191a15;
+  padding: 12px 30px;
+  background-color: transparent;
+}
+.hero-section .button i {
+  font-size: 31.6px;
+  margin-right: 14px;
+}
+.hero-section .button button:nth-child(2):hover {
+  border: 1px solid transparent;
+  color: #fff;
+  background-color: #54bd95;
+}
+.hero-bottom {
+  padding: 140px 0 130px 0;
+}
+.hero-bottom h2 {
+  color: #191a15;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.hero-bottom .item {
+  color: #a6a6a6;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px !important ;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.hero-bottom .item img {
+  width: 34px;
+  height: 32px;
+}
+
+/* ================ Support CSS ==================  */
+.support-section {
+  background: #f9f8fe;
+  padding: 60px 0;
+}
+.support-section h1 {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.support-section p {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+  padding: 30px 0 73px 0;
+}
+.support-section .reviews {
+  display: flex;
+  gap: 80px;
+}
+.support-section i {
+  color: #ffc728;
+}
+.support-section .reviews p {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 18px 0;
+  margin: 0;
+}
+.support-section .reviews span {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.support-section .reviews strong {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* support-second */
+.support-second img {
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+}
+.support-second h3 {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.support-second p {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  padding: 10px 0 30px 0;
+}
+/* ==================Features CSS =============== */
+.features-section {
+  padding: 130px 0;
+}
+.features-section h1 {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+.features-section p {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+.features-section button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  border-radius: 70px;
+  background: #54bd95;
+  padding: 18px 31px;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+.features-section button:hover {
+  color: #54bd95;
+  background-color: transparent;
+  border: 1px solid #54bd95;
+}
+.features-section .card {
+  margin: 70px 0 0 0;
+  border: none;
+}
+.features-section h3 {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 100% */
+  padding: 30px 0 20px 0;
+  margin: 0;
+}
+/* =============== benifit-section CSS ============== */
+.benifit-section h2 {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 35px;
+}
+.benifit-section ul {
+  list-style: none;
+  padding: 0;
+}
+.benifit-section li {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  margin: 16px 0;
+}
+.benifit-section li img {
+  margin-right: 20px;
+}
+/* ============== Plan Section CSS =============== */
+.plan-section {
+  padding: 130px 0;
+}
+.plan-section h1 {
+  color: #191a15;
+  text-align: center;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 73px; /* 146% */
+  margin-bottom: 40px;
+}
+
+.plan-section .card {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+  margin-top: 65px;
+  transition: 0.2s ease;
+}
+.plan-section h2 {
+  color: #191a15;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 40px 0 10px 0;
+}
+.plan-section p {
+  color: #a6a6a6;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+}
+
+.plan-section span {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 60% */
+  margin: 39px 0 16px 0;
+  display: inline-block;
+}
+.plan-section span sup {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px !important ;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 30px; /* 166.667% */
+  top: -1.5rem;
+}
+.plan-head {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+  gap: 10px;
+  padding: 7px;
+  margin-top: 30px;
+}
+.plan-head span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  padding: 13px 40px;
+  border-radius: 10px;
+  background: #54bd95;
+  margin: 0;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.plan-head span:nth-child(1) {
+  color: #191a15;
+  background-color: #fff;
+}
+.plan-head span:nth-child(1):hover {
+  color: #fff;
+  background-color: #54bd95;
+}
+.plan-head span:nth-child(2):hover {
+  border: 1px solid #54bd95;
+  color: #161c28;
+  background-color: transparent;
+}
+/* Plan Card */
+
+.plan-section .card-content {
+  margin: 15px 20px 25px 20px;
+  padding: 14px 30px 25px 30px;
+  border-radius: 10px;
+  background: #f9fafb;
+}
+.plan-section ul {
+  list-style: none;
+  padding: 0;
+}
+.plan-section li {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  padding: 11px 0;
+}
+.plan-section li img {
+  margin-right: 10px;
+}
+.plan-section button {
+  width: 100%;
+  color: #54bd95;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  border-radius: 20px;
+  background: transparent;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+  padding: 17px 0;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+.plan-section .card-item {
+  background: #54bd95;
+}
+.plan-section .card-item h2 {
+  color: #fff;
+}
+.plan-section .card-item p {
+  color: #fff;
+}
+.plan-section .card-item span {
+  color: #fff;
+}
+.plan-section .card-item sup {
+  color: #fff;
+}
+.plan-section .card-item button {
+  background-color: #54bd95;
+  color: #fff;
+}
+.plan-section .card:hover {
+  background: #54bd95;
+}
+.plan-section .card:hover h2,
+.plan-section .card:hover p,
+.plan-section .card:hover span,
+.plan-section .card:hover sup {
+  color: #fff;
+}
+.plan-section .card button:hover {
+  background-color: #54bd95;
+  color: #fff;
+}
+.plan-section .card-item button:hover {
+  background: #fff;
+  color: #54bd95;
+  border: 1px solid #54bd95;
+}
+/* ================= Footer CSS ================= */
+.footer-section {
+  padding: 130px 0 40px 0;
+  background: #161c28;
+  color: white;
+}
+.footer-section h1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer-section p {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  margin: 20px 0;
+}
+.footer-section strong {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+.footer-section .img {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+.footer-section .img img {
+  width: 66px;
+  height: 66px;
+  flex-shrink: 0;
+  border-radius: 66px;
+  cursor: pointer;
+}
+.footer-section .card {
+  display: inline-flex;
+  padding: 40px 86px 66px 86px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #222938;
+  width: 100%;
+}
+.footer-section .card h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer-section .card label {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.footer-section .card input {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 17px 0 17px 20px;
+  outline: none;
+  border-radius: 10px;
+  background: #fff;
+  width: 100%;
+}
+.footer-section .card input:focus,
+.footer-section .card textarea:focus {
+  background-color: transparent;
+  border: 1px solid #54bd95;
+  color: #fff;
+}
+.footer-section .card textarea {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 20px 20px;
+  outline: none;
+  border-radius: 10px;
+  background: #fff;
+  width: 100%;
+}
+.footer-section .card input[type="submit"] {
+  border-radius: 10px;
+  background: #54bd95;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  outline: none;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+.footer-section .card input[type="submit"]:hover {
+  background: transparent;
+  color: #54bd95;
+  border: 1px solid #54bd95;
+}
+.footer-section .card p {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+.footer-section .card p a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+/* footer-second */
+.footer-second {
+  padding: 170px 0 60px 0;
+}
+.footer-second h1 {
+  color: #54bd95;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 60% */
+}
+.footer-second p {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  padding: 30px 0;
+}
+
+.footer-second .input-form {
+  max-width: 410px;
+  position: relative;
+}
+.footer-second .input-form input {
+  width: 100%;
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  padding: 15px 20px;
+  border-radius: 70px;
+  border: 2px solid #a6a6a6;
+  background-color: transparent;
+  outline: none;
+}
+.footer-second .input-form span {
+  position: absolute;
+  right: 8px;
+  top: 7px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.footer-second .input-form i {
+  font-size: 50px;
+  background-color: #54bd95;
+  color: #fff;
+}
+.footer-second h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.footer-second ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-second ul li a {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px 0;
+  display: inline-block;
+}
+/* footer-third */
+.footer-third p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+.footer-third p a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.footer-third p a:hover {
+  color: #ffffffc0;
+}

@@ -1,0 +1,27 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .hero-section h1 {
+    font-size: 50px;
+  }
+  .features-section h1 {
+    font-size: 35px;
+  }
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .support-section h1 {
+    font-size: 35px;
+  }
+  .features-section h1 {
+    font-size: 30px;
+  }
+}
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .support-section h1 {
+    font-size: 60px;
+  }
+  .features-section h1 {
+    font-size: 50px;
+  }
+}
