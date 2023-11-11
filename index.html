@@ -21,50 +21,58 @@
   </head>
   <body>
     <!-- ============== Navbar section ============== -->
-    <nav class="nav-section navbar navbar-expand-lg bg-body">
-      <div class="container">
-        <div class="logo">
-          <a class="navbar-brand" href="#">Biccas</a>
-        </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <i class="bi bi-list"></i>
-        </button>
-        <div class="collapse navbar-collapse gap-5" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-          </ul>
-          <div class="d-flex gap-2 button">
-            <a class="app-btn" href="#">Login</a>
-            <a class="app-btn" href="#">Sign Up</a>
+    <header>
+      <nav
+        id="navbar"
+        class="overflow-hidden fixed-top nav-section navbar navbar-expand-lg bg-body">
+        <div class="container">
+          <div class="logo">
+            <a class="navbar-brand" href="#">Biccas</a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse gap-5 text-center"
+            id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+            </ul>
+            <div class="d-flex gap-2 button justify-content-center">
+              <a class="app-btn" href="#">Login</a>
+              <a class="app-btn" href="#">Sign Up</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <!-- ============== Main Content =============== -->
-    <main>
+    <main data-bs-spy="scroll" data-bs-smooth-scroll="true" tabindex="0">
       <!-- ========== Hero Section============ -->
-      <section class="hero-section">
+      <section id="home" class="hero-section">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-12">
@@ -131,7 +139,7 @@
         </div>
       </section>
       <!-- =========== Support Section ============ -->
-      <section class="support-section">
+      <section id="faq" class="support-section">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-12 text-center text-md-start">
@@ -199,7 +207,7 @@
         </div>
       </section>
       <!-- ============ Features Section ========== -->
-      <section class="features-section">
+      <section id="blog" class="features-section">
         <div class="container">
           <div class="row justify-content-between text-center text-md-start">
             <div class="col-xl-4 col-md-4 col-sm-12">
@@ -224,8 +232,12 @@
                 <img
                   src="assets/img/feature-frame 1.png"
                   alt="Features Frame" />
-                <h3>Collboration Teams</h3>
-                <p>Here you can handle projects together with team virtually</p>
+                <div>
+                  <h3>Collboration Teams</h3>
+                  <p>
+                    Here you can handle projects together with team virtually
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-md-4 col-sm-6 col-8">
@@ -233,11 +245,13 @@
                 <img
                   src="assets/img/Feature Frame 2.png"
                   alt="Features Frame" />
-                <h3>Cloud Storage</h3>
-                <p>
-                  No nedd to worry about storage because we provide storage up
-                  to 2 TB
-                </p>
+                <div>
+                  <h3>Cloud Storage</h3>
+                  <p>
+                    No nedd to worry about storage because we provide storage up
+                    to 2 TB
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-md-4 col-sm-6 col-8">
@@ -245,11 +259,13 @@
                 <img
                   src="assets/img/Feature Frame 3.png"
                   alt="Features Frame" />
-                <h3>Daily Analytics</h3>
-                <p>
-                  We always provide useful informatin to make it easier for you
-                  every day
-                </p>
+                <div>
+                  <h3>Daily Analytics</h3>
+                  <p>
+                    We always provide useful informatin to make it easier for
+                    you every day
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -295,7 +311,7 @@
         </div>
       </section>
       <!-- ================= Plan Section ================ -->
-      <section class="plan-section">
+      <section id="product" class="plan-section">
         <div class="container">
           <div class="text-center">
             <h1>
@@ -310,7 +326,7 @@
               <span>Bil Yearly</span>
             </div>
           </div>
-          <div class="row">
+          <div class="row justify-content-around justify-content-md-between">
             <!-- Free  Plan -->
             <div class="col-xl-4 col-md-6 col-sm-12">
               <div class="card">
@@ -360,6 +376,7 @@
                   </p>
                   <span><sup>$</sup>8</span>
                 </div>
+                <div class="card-saver">Save $50 a year</div>
                 <div class="card-content">
                   <ul>
                     <li>
@@ -429,7 +446,7 @@
         </div>
       </section>
       <!-- ================== Footer Section =============== -->
-      <footer class="footer-section">
+      <footer id="about" class="footer-section">
         <div class="container">
           <div class="row justify-content-between">
             <div class="col-md-5 col-sm-12">
@@ -474,18 +491,18 @@
               </div>
             </div>
             <div class="col-md-6 col-sm-12 pt-5 pt-md-0">
-              <div class="card">
+              <form class="card">
                 <img src="assets/img/database icon.png" alt="Database icon" />
                 <h3>Get Started</h3>
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Enter your email" />
+                <input type="email" id="email" placeholder="Enter your email" required />
                 <label for="message">Message</label>
-                <textarea
+                <textarea required
                   id="message"
                   placeholder="What are you say ? "></textarea>
                 <input type="submit" value="Request Demo" />
                 <p>or <a href="#">Start Free Trial</a></p>
-              </div>
+              </form>
             </div>
           </div>
           <!-- footer-second -->
@@ -493,10 +510,10 @@
             <div class="col-md-5 col-sm-12 text-center text-md-start">
               <h1>Biccas</h1>
               <p>Get started noew try our product</p>
-              <div class="input-form mx-auto mx-md-0">
-                <input type="text" placeholder="Enter your email" />
-                <span><i class="bi bi-arrow-right-short"></i></span>
-              </div>
+              <form class="input-form mx-auto mx-md-0">
+                <input type="email" placeholder="Enter your email" required />
+                <button type="submit"><i class="bi bi-arrow-right-short"></i></button>
+              </form>
             </div>
             <div
               class="col-md-6 col-sm-12 row pt-5 pt-md-0 justify-content-around text-center justify-content-md-between text-md-start">
@@ -555,6 +572,8 @@
     </main>
     <!-- Bootstrap Js  -->
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
 <!-- 
